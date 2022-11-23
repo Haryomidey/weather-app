@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(27, 17, 181);
+    background: linear-gradient(90deg, rgba(27, 17, 181, 1) 0%, rgba(24, 195, 219, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    width: 400px;
+    max-width: 100%;
+    min-height: 350px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#temp {
+    font-size: 60px;
+}
+
+.unit {
+    font-size: 55px;
+}
+
+.search-l {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.search {
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    background: rgba(0, 212, 255, 1);
+    border: 0;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.win {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hum {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.des {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
